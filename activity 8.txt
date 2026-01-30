@@ -1,3 +1,0 @@
-select customer_id, max(purchase_amount) from orders group by customer_id;
-select salesman_id, max(purchase_amount) from orders where order_date = TO_date('2012-08-17', 'yyyy-mm-dd') group by salesman_id;
-select max(purchase_amount), customer_id, order_date FROM orders group by customer_id, order_date having max(purchase_amount) in (2030, 3456, 1234, 2029);
