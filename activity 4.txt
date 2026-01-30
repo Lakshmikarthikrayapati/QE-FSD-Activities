@@ -1,3 +1,0 @@
-ALTER TABLE salesman add grade INT;
-UPDATE salesman SET grade = 100;
-select * from salesman;e='paul adam';
