@@ -1,5 +1,0 @@
-select sum(purchase_amout) total_purchase_amount from orders;
-select avg(purchase_amount) avg_purchase_amount from orders;
-select max(purchase_amount) max_purchase_amount from orders;
-select min(purchase_amount) min_purchase_amount from orders;
-select count(*) no_of_salesman from salesman;
