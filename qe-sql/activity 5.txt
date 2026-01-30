@@ -1,0 +1,4 @@
+UPDATE salesman SET grade = 200 where salesman_city = 'rom';
+UPDATE salesman SET grade = 300 where salesman_name = 'james hoog';
+UPDATE salesman set salesman_name = 'pierre' where salesman_name = 'mclyon';
+select * from salesman;
