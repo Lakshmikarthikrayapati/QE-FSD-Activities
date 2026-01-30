@@ -1,8 +1,0 @@
-INSERT ALL
-    into salesman values(5001,'james hoog','new york',15)
-    into salesman values(5002,'nail knite','paris',13)
-    into salesman values(5005,'pit alex','london',11)
-    into salesman values(5006,'mclyon','paris',14)
-    into salesman values(5007,'paul adam','rom',13)
-    into salesman values(5003,'lauson hen','san jones',12)
-select * from dual;
